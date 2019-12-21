@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45291274202A26F6007CAEFD /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45291273202A26F6007CAEFD /* Question.swift */; };
+		45291276202A2A61007CAEFD /* QuestionBank.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45291275202A2A61007CAEFD /* QuestionBank.swift */; };
+		45291278202CD2BC007CAEFD /* pic2 in Resources */ = {isa = PBXBuildFile; fileRef = 45291277202CD2BC007CAEFD /* pic2 */; };
+		4529127A202CD39F007CAEFD /* pic3 in Resources */ = {isa = PBXBuildFile; fileRef = 45291279202CD39F007CAEFD /* pic3 */; };
+		4529127C202CD3BD007CAEFD /* pic4 in Resources */ = {isa = PBXBuildFile; fileRef = 4529127B202CD3BD007CAEFD /* pic4 */; };
+		4529127E202CD3EE007CAEFD /* pic5 in Resources */ = {isa = PBXBuildFile; fileRef = 4529127D202CD3EE007CAEFD /* pic5 */; };
+		45291280202CD408007CAEFD /* pic6 in Resources */ = {isa = PBXBuildFile; fileRef = 4529127F202CD407007CAEFD /* pic6 */; };
+		45291282202CD412007CAEFD /* pic7 in Resources */ = {isa = PBXBuildFile; fileRef = 45291281202CD412007CAEFD /* pic7 */; };
+		45291284202CD41D007CAEFD /* pic8 in Resources */ = {isa = PBXBuildFile; fileRef = 45291283202CD41D007CAEFD /* pic8 */; };
+		45291286202CD431007CAEFD /* pic9 in Resources */ = {isa = PBXBuildFile; fileRef = 45291285202CD431007CAEFD /* pic9 */; };
+		45291288202CD476007CAEFD /* pic10 in Resources */ = {isa = PBXBuildFile; fileRef = 45291287202CD475007CAEFD /* pic10 */; };
+		456816362034B43500D4D731 /* ViewIncorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 456816352034B43500D4D731 /* ViewIncorrect.swift */; };
+		45BDA4DE203C9D26009EBB29 /* ViewCorrect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BDA4DD203C9D26009EBB29 /* ViewCorrect.swift */; };
+		95070CA3221C8B5E00B334A8 /* CreateQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95070CA2221C8B5E00B334A8 /* CreateQuestion.swift */; };
+		95119C0E224012D900361840 /* ViewEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95119C0D224012D900361840 /* ViewEnd.swift */; };
+		9563C2E32199E75000B2C4E7 /* wu boi.png in Resources */ = {isa = PBXBuildFile; fileRef = 9563C2E22199E75000B2C4E7 /* wu boi.png */; };
+		95A53D9A2023950000441796 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A53D992023950000441796 /* AppDelegate.swift */; };
+		95A53D9C2023950000441796 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95A53D9B2023950000441796 /* ViewController.swift */; };
+		95A53D9F2023950000441796 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A53D9D2023950000441796 /* Main.storyboard */; settings = {ASSET_TAGS = (Restart, ); }; };
+		95A53DA12023950000441796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95A53DA02023950000441796 /* Assets.xcassets */; };
+		95A53DA42023950000441796 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95A53DA22023950000441796 /* LaunchScreen.storyboard */; };
+		95FDEA1B20239E0900D0B2F6 /* pic1 in Resources */ = {isa = PBXBuildFile; fileRef = 95FDEA1A20239E0900D0B2F6 /* pic1 */; };
+		95FDEA1D2023A53F00D0B2F6 /* ViewHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95FDEA1C2023A53F00D0B2F6 /* ViewHome.swift */; };
+		95FDEA222023C7E000D0B2F6 /* Ninjago squaaa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 95FDEA212023C7E000D0B2F6 /* Ninjago squaaa.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45291273202A26F6007CAEFD /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		45291275202A2A61007CAEFD /* QuestionBank.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionBank.swift; sourceTree = "<group>"; };
+		45291277202CD2BC007CAEFD /* pic2 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic2; sourceTree = "<group>"; };
+		45291279202CD39F007CAEFD /* pic3 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic3; sourceTree = "<group>"; };
+		4529127B202CD3BD007CAEFD /* pic4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic4; sourceTree = "<group>"; };
+		4529127D202CD3EE007CAEFD /* pic5 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic5; sourceTree = "<group>"; };
+		4529127F202CD407007CAEFD /* pic6 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic6; sourceTree = "<group>"; };
+		45291281202CD412007CAEFD /* pic7 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic7; sourceTree = "<group>"; };
+		45291283202CD41D007CAEFD /* pic8 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic8; sourceTree = "<group>"; };
+		45291285202CD431007CAEFD /* pic9 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic9; sourceTree = "<group>"; };
+		45291287202CD475007CAEFD /* pic10 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic10; sourceTree = "<group>"; };
+		456816352034B43500D4D731 /* ViewIncorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewIncorrect.swift; sourceTree = "<group>"; };
+		45BDA4DD203C9D26009EBB29 /* ViewCorrect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCorrect.swift; sourceTree = "<group>"; };
+		95070CA2221C8B5E00B334A8 /* CreateQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateQuestion.swift; sourceTree = "<group>"; };
+		95119C0D224012D900361840 /* ViewEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEnd.swift; sourceTree = "<group>"; };
+		9563C2E22199E75000B2C4E7 /* wu boi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "wu boi.png"; path = "../../../../wu boi.png"; sourceTree = "<group>"; };
+		95A53D962023950000441796 /* The Ninja Education App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Ninja Education App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95A53D992023950000441796 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95A53D9B2023950000441796 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95A53D9E2023950000441796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95A53DA02023950000441796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95A53DA32023950000441796 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95A53DA52023950000441796 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95FDEA1A20239E0900D0B2F6 /* pic1 */ = {isa = PBXFileReference; lastKnownFileType = file; path = pic1; sourceTree = "<group>"; };
+		95FDEA1C2023A53F00D0B2F6 /* ViewHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewHome.swift; sourceTree = "<group>"; };
+		95FDEA212023C7E000D0B2F6 /* Ninjago squaaa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Ninjago squaaa.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95A53D932023950000441796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45291270202A2646007CAEFD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				45291273202A26F6007CAEFD /* Question.swift */,
+				45291275202A2A61007CAEFD /* QuestionBank.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		95A53D8D2023950000441796 = {
+			isa = PBXGroup;
+			children = (
+				95A53D982023950000441796 /* The Ninja Education App */,
+				95A53D972023950000441796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95A53D972023950000441796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95A53D962023950000441796 /* The Ninja Education App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95A53D982023950000441796 /* The Ninja Education App */ = {
+			isa = PBXGroup;
+			children = (
+				45291270202A2646007CAEFD /* Model */,
+				95FDEA1E2023A66900D0B2F6 /* Controller */,
+				95FDEA1F2023C2B900D0B2F6 /* View */,
+				95FDEA202023C2EA00D0B2F6 /* Supporting Files */,
+			);
+			path = "The Ninja Education App";
+			sourceTree = "<group>";
+		};
+		95FDEA1E2023A66900D0B2F6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				95FDEA1C2023A53F00D0B2F6 /* ViewHome.swift */,
+				95070CA2221C8B5E00B334A8 /* CreateQuestion.swift */,
+				95119C0D224012D900361840 /* ViewEnd.swift */,
+				95A53D9B2023950000441796 /* ViewController.swift */,
+				45BDA4DD203C9D26009EBB29 /* ViewCorrect.swift */,
+				456816352034B43500D4D731 /* ViewIncorrect.swift */,
+				95A53D992023950000441796 /* AppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		95FDEA1F2023C2B900D0B2F6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				95A53D9D2023950000441796 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		95FDEA202023C2EA00D0B2F6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95A53DA52023950000441796 /* Info.plist */,
+				9563C2E22199E75000B2C4E7 /* wu boi.png */,
+				95A53DA22023950000441796 /* LaunchScreen.storyboard */,
+				95A53DA02023950000441796 /* Assets.xcassets */,
+				95FDEA212023C7E000D0B2F6 /* Ninjago squaaa.jpg */,
+				95FDEA1A20239E0900D0B2F6 /* pic1 */,
+				45291277202CD2BC007CAEFD /* pic2 */,
+				45291279202CD39F007CAEFD /* pic3 */,
+				4529127B202CD3BD007CAEFD /* pic4 */,
+				4529127D202CD3EE007CAEFD /* pic5 */,
+				4529127F202CD407007CAEFD /* pic6 */,
+				45291281202CD412007CAEFD /* pic7 */,
+				45291283202CD41D007CAEFD /* pic8 */,
+				45291285202CD431007CAEFD /* pic9 */,
+				45291287202CD475007CAEFD /* pic10 */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95A53D952023950000441796 /* The Ninja Education App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95A53DA82023950000441796 /* Build configuration list for PBXNativeTarget "The Ninja Education App" */;
+			buildPhases = (
+				95A53D922023950000441796 /* Sources */,
+				95A53D932023950000441796 /* Frameworks */,
+				95A53D942023950000441796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Ninja Education App";
+			productName = "The Ninja Education App";
+			productReference = 95A53D962023950000441796 /* The Ninja Education App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95A53D8E2023950000441796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				KnownAssetTags = (
+					Restart,
+					mySegue,
+				);
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Will Micol";
+				TargetAttributes = {
+					95A53D952023950000441796 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95A53D912023950000441796 /* Build configuration list for PBXProject "The Ninja Education App" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95A53D8D2023950000441796;
+			productRefGroup = 95A53D972023950000441796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95A53D952023950000441796 /* The Ninja Education App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95A53D942023950000441796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45291286202CD431007CAEFD /* pic9 in Resources */,
+				45291282202CD412007CAEFD /* pic7 in Resources */,
+				95FDEA222023C7E000D0B2F6 /* Ninjago squaaa.jpg in Resources */,
+				45291284202CD41D007CAEFD /* pic8 in Resources */,
+				4529127C202CD3BD007CAEFD /* pic4 in Resources */,
+				4529127A202CD39F007CAEFD /* pic3 in Resources */,
+				9563C2E32199E75000B2C4E7 /* wu boi.png in Resources */,
+				95A53DA42023950000441796 /* LaunchScreen.storyboard in Resources */,
+				4529127E202CD3EE007CAEFD /* pic5 in Resources */,
+				45291278202CD2BC007CAEFD /* pic2 in Resources */,
+				45291288202CD476007CAEFD /* pic10 in Resources */,
+				95A53DA12023950000441796 /* Assets.xcassets in Resources */,
+				95FDEA1B20239E0900D0B2F6 /* pic1 in Resources */,
+				95A53D9F2023950000441796 /* Main.storyboard in Resources */,
+				45291280202CD408007CAEFD /* pic6 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95A53D922023950000441796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95A53D9C2023950000441796 /* ViewController.swift in Sources */,
+				45291274202A26F6007CAEFD /* Question.swift in Sources */,
+				95A53D9A2023950000441796 /* AppDelegate.swift in Sources */,
+				45291276202A2A61007CAEFD /* QuestionBank.swift in Sources */,
+				45BDA4DE203C9D26009EBB29 /* ViewCorrect.swift in Sources */,
+				95070CA3221C8B5E00B334A8 /* CreateQuestion.swift in Sources */,
+				95119C0E224012D900361840 /* ViewEnd.swift in Sources */,
+				456816362034B43500D4D731 /* ViewIncorrect.swift in Sources */,
+				95FDEA1D2023A53F00D0B2F6 /* ViewHome.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		95A53D9D2023950000441796 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A53D9E2023950000441796 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		95A53DA22023950000441796 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95A53DA32023950000441796 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95A53DA62023950000441796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95A53DA72023950000441796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95A53DA92023950000441796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY8656Y5ZN;
+				INFOPLIST_FILE = "$(SRCROOT)/The Ninja Education App/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Micol-PRODUCTS.The-Ninja-Education-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		95A53DAA2023950000441796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BY8656Y5ZN;
+				INFOPLIST_FILE = "$(SRCROOT)/The Ninja Education App/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Micol-PRODUCTS.The-Ninja-Education-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95A53D912023950000441796 /* Build configuration list for PBXProject "The Ninja Education App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A53DA62023950000441796 /* Debug */,
+				95A53DA72023950000441796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95A53DA82023950000441796 /* Build configuration list for PBXNativeTarget "The Ninja Education App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95A53DA92023950000441796 /* Debug */,
+				95A53DAA2023950000441796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95A53D8E2023950000441796 /* Project object */;
+}
